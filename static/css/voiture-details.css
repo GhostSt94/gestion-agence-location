@@ -1,0 +1,6 @@
+body {
+    background: radial-gradient(white,#01366E);
+}
+tbody,td,tfoot,th,thead,tr{
+  border-style: none;
+}

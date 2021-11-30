@@ -1,0 +1,12 @@
+body{
+    margin: 25px;
+    background: radial-gradient(white,#AACDEC);
+}
+
+.rounded{
+	border: 1px solid #ced4da;
+}
+
+#logoLogin{
+	border: 0;
+}

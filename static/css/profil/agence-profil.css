@@ -1,0 +1,12 @@
+body{
+	background: radial-gradient(white,#01366E);
+}
+.active div i{
+	color: white;
+}
+.active .pt-1{
+	color: white;
+} 
+#profilMenu{
+	height: 210px;
+}

@@ -1,0 +1,179 @@
+
+
+body{
+	font-family: 'Playfair Display', serif;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+
+.navbar-brand{
+    transition: transform 0.5s;
+}
+.navbar-brand:hover{
+    transform:perspective(60px) translateZ(8px);
+}
+
+.f-center{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.w-95{
+	width: 95%;
+}
+
+.jc-sb{
+	justify-content: space-between;
+}
+
+.my-container h1{
+	color: white;
+}
+
+.bg-white-opacity{
+	border-radius: 8px;
+	background-color: rgba(225,225,225,0.9);
+}
+
+.card{
+	margin: auto;
+
+}
+
+.absolute-spinner{
+	position: absolute;
+	top: 48%;
+	left: 47%;
+	color: white;
+}
+
+#nos-agences,#nos-voitures{
+	position: relative;
+}
+
+#prixTotal{
+	font-size: x-large;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+#button-addon1 {
+  color: #01366E;
+}
+
+i {
+  color: #01366E;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.btn-primary{
+	background-color: #01366E;
+}
+
+.profil-menu{
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+#profilContent{
+	border: 1px solid gray;
+	border-radius: 5px;	
+	position: relative;
+}
+
+#profilContainer{
+	min-height: 350px;
+	margin: 15px;
+}
+
+.list-group-item{
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-group-item div{
+	display: inline-block;
+	width: 100%;
+}
+
+.list-group a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+#editProdil{
+	position: absolute;
+	right: 0;
+}
+
+.deleteImageLink{
+	display: flex;
+	justify-content: center;
+}
+
+.carActions{
+	cursor: pointer;
+}
+
+.activable-item{
+	width: 50px;
+	text-align: center;
+}
+
+.page-item.active .page-link{
+	background-color: #01366E;
+}
+
+.w-120{
+	width: 120%;
+}
+
+.center-item-d-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.center-badge-d-flex{
+	display: flex;
+	align-items: center;
+	font-family: 'Segoe UI';
+}
+
+.font-xx-large{
+	font-size: xx-large;
+}
+
+.text-prixJ{
+	color: #01366E;
+}
+
+.min-vh-70{
+	min-height: 70vh;
+}
+
+footer{
+	background: linear-gradient(to top, rgba(192, 192, 192, 1), rgba(255, 255, 255, 1));
+}

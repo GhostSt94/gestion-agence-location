@@ -1,0 +1,7 @@
+
+#php_value display_errors 1
+
+php_flag output_buffering on
+
+ErrorDocument 404 /Gestion%20Agence%20Location/view/erreurs/404.php
+ErrorDocument 500 /Gestion%20Agence%20Location/view/erreurs/500.php

@@ -1,0 +1,23 @@
+ body{
+  margin: 25px;
+  background: radial-gradient(white,#AACDEC);
+}
+.nav-item{
+  width: 50%;
+}
+li:hover{
+  cursor: pointer;
+}
+.list-group-item.active{
+  background-color: #AACDEC;
+  border-color: #01366E;
+}
+.list-group-item:last-child{
+  border-bottom-right-radius: 0;
+}
+.list-group-horizontal>.list-group-item:first-child{
+   border-bottom-left-radius: 0;
+}
+.list-group-item{
+  width: 20%;
+}
